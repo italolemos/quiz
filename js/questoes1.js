@@ -1,203 +1,203 @@
- var quiztitle = "Geo Quiz";
+ var quiztitle = "Dengue Quiz";
 
 
   var quiz = [
 
         {
-            "question" : "Quantos estados possui a região nordeste?",
+            "question" : "Qual doença é transmitida pelo mosquito Aedes aegypti?",
             "choices" : [
-                                    "7 Estados",
-                                    "9 Estados",
-                                    "5 Estados",
-                                    "8 Estados"
+                                    "Catapora",
+                                    "Sarampo",
+                                    "Chikungunya",
+                                    "Caxumba"
                                 ],
-            "correct" : "9 Estados",
+            "correct" : "Chikungunya",
             "id":"0"
         },
 
         {
-            "question" : "Qual alternativa indica corretamente a região que abriga o estado de Pernambuco?",
+            "question" : "Qual estação do ano é mais frequente para o proliferação do mosquito da dengue?",
             "choices" : [
-                                    "Sul",
-                                    "Norte",
-                                    "Centro-Oeste",
-                                    "Sudeste",
-                                    "Nordeste"
+                                    "Primavera",
+                                    "Verão",
+                                    "Outono",
+                                    "Inverno"
+                                    
                                 ],
-            "correct" : "Nordeste",
+            "correct" : "Verão",
             "id":"1"
         },
 
         {
-            "question" : "A capital de Pernambuco é a cidade de",
+            "question" : "Como a dengue é transmitida?",
             "choices" : [
-                                    "Natal",
-                                    "Recife",
-                                    "Maceió",
-                                    "João Pessoa",
-                                    "Aracajú"
+                                    "Pela picada do macho do mosquito Aedes aegypti",
+                                    "Pela picada da fêmea do mosquito Aedes aegypti",
+                                    "Pela picada tanto do macho quanto da fêmea do mosquito Aedes aegypti",
+                                    "Pela picada do barbeiro macho contaminado pelo protozoário Trypanosoma cruzi",
+                                    "Pela picada do barbeiro fêmea contaminado pelo protozoário Trypanosoma cruzi."
                                 ],
-            "correct" : "Recife",
+            "correct" : "Pela picada da fêmea do mosquito Aedes aegypti",
             "id":"2"
         },
         {
-            "question" : "Sobre os aspectos físicos de Pernambuco e marque a alternativa INCORRETA.",
+            "question" : "O Aedes aegypti é parecido com o pernilongo comum, mas há diferenças que podem identificá-lo. Uma delas é:",
             "choices" : [
-                                    "O território pernambucano está localizado na Região Nordeste do Brasil, sendo banhado pelo Oceano Atlântico.",
-                                    "Pernambuco apresenta vegetações variadas de acordo com cada região, predominando as áreas de caatinga, floresta tropical e mangues litorâneos.",
-                                    "A maioria dos rios de Pernambuco pertence à Região Hidrográfica do São Francisco.",
-                                    "Ponta do Seixas, considerada o ponto extremo leste do território brasileiro, está localizada em Pernambuco.",
-                                    "Os climas predominantes no estado são o tropical atlântico e o semiárido."
+                                    "Corpo escuro com listras brancas",
+                                    "Corpo claro com círculos escuros",
+                                    "Zunido mais agudo",
+                                    "Zunido mais grave",
+                                    "Corpo ovalado, em formato de feijão"
                                 ],
-            "correct" : "Ponta do Seixas, considerada o ponto extremo leste do território brasileiro, está localizada em Pernambuco.",
+            "correct" : "Corpo escuro com listras brancas",
             "id":"3"
         },
         {
-            "question" : "Em quais regiões está divido o estado de Pernambuco? ",
+            "question" : "Não é um sintoma da Dengue:",
             "choices" : [
-                                    "Norte, Leste e Sul",
-                                    "Zona da Mata, Agreste, Sertão",
-                                    "Litoral e Sertão"
+                                    "Febre",
+                                    "Dor de cabeça",
+                                    "Fraqueza",
+                                    "Manchas Vermelhas",
+                                    "Dor de ouvido"
                                 ],
-            "correct" : "Zona da Mata, Agreste, Sertão",
+            "correct" : "Dor de ouvido",
             "id":"4"
         },
         {
-            "question" : "Quais desses rios atravessam o sertão pernambucano?",
+            "question" : "Como conter a proliferação do mosquito transmissor da dengue?",
             "choices" : [
-                                    "Nilo",
-                                    "Tiête",
-                                    "São Francisco",
-                                    "Amazonas"
+                                    "Manter a caixa dágua sempre aberta",
+                                    "Deixar água acumulada em lajes e calhas",
+                                    "Encher de areia os pratos de vasos de flores"
                                 ],
-            "correct" : "São Francisco",
+            "correct" : "Encher de areia os pratos de vasos de flores",
             "id":"5"
         },
         {
-            "question" : "A zona da mata pernmabucana é banhada pelo oceano ",
+            "question" : "Como se chama o mosquito que transmite o vírus da Dengue?",
             "choices" : [
-                                    "Pacífico",
-                                    "Índico",
-                                    "Atlântico"
+                                    "Zangão",
+                                    "Aedes Aegypti"
+                                    
                                 ],
-            "correct" : "Atlântico",
+            "correct" : "Aedes Aegypti",
             "id":"6"
         },
          {
-            "question" : "Quais destas biodiversidades aparecem em Pernambuco?",
+            "question" : "Quais etapas de desenvolvimento passa o mosquito até chegar à etapa adulta",
             "choices" : [
-                                    "Floresta Amazonica",
-                                    "Cerrado",
-                                    "Caatinga"
+                                    "larva, mosquito",
+                                    "ovo, larva e pupa",
+                                    "pupa, ovo, mosquito"
                                 ],
-            "correct" : "Caatinga",
+            "correct" : "ovo, larva e pupa",
             "id":"7"
         },
 
          {
-            "question" : "Qual a cidade mais populosa do Brasil?",
+            "question" : "Existe uma vacina contra a dengue?",
             "choices" : [
-                                   "Belo Horizonte",
-                                    "Manaus",
-                                    "Rio de Janeiro",
-                                    "São Paulo",
-                                    "Fortaleza"
+                                    "Sim",
+                                    "Não"
                                 ],
-            "correct" : "São Paulo",
+            "correct" : "Não",
             "id":"8"
         },
          {
-            "question" : "Como são chamados os quatro pontos colaterais na rosa-dos-ventos?",
+            "question" : "Como uma pessoa pode saber se teve ou tem dengue?",
             "choices" : [
-                                    "Norte, Sul, Leste e Oeste",
-                                    "Frente, Atrás, Esquerda e Direita"
+                                    "Através de consulta na internet",
+                                    "Através do exame de sangue feito em laboratório"
+
                                 ],
-            "correct" : "Norte, Sul, Leste e Oeste",
+            "correct" : "Através do exame de sangue feito em laboratório",
             "id":"9"
         },
          {
-            "question" : "Águas ocasionadas da chuvam são chamadas de: ",
+            "question" : "Como previnir a dengue? ",
             "choices" : [
-                                    "Pluviais",
-                                    "Fluviais"
+                                    "Eliminar recipientes que possam acumular água",
+                                    "Manter água parada em baldes"
 
 
                                 ],
-            "correct" : "Pluviais.",
+            "correct" : "Eliminar recipientes que possam acumular água",
             "id":"10"
         },
          {
-            "question" : "Movimentos de Rotação e Translação são realizados pela(o) ",
+            "question" : "Quanto tempo pode durar o ovo do mosquito, em condições favoráveis?",
             "choices" : [
-                                    "Sol",
-                                    "Lua",
-                                    "Terra"
+                                    "5 dias",
+                                    "6 meses",
+                                    "7 dias",
+                                    "1 mês"
                                 ],
-            "correct" : "Terra",
+            "correct" : "6 meses",
             "id":"11"
         },
          {
-            "question" : "Um Navio é um meio de transporte:",
+            "question" : "Quais dessas doenças são transmitidas pela Aedes aegypti",
             "choices" : [
-                                    "Aquático",
-                                    "Aéreo",
-                                    "Terreste"
+                                    "Desnutrição, Diarreia, Caxumba",
+                                    "Pneumonia, Asma e Cárie",
+                                    "Zika, Dengue e Chikungunya"
 
 
                                 ],
-            "correct" : "Aquático",
+            "correct" : "Zika, Dengue e Chikungunya",
             "id":"12"
         },
          {
-            "question" : "O Brasil está dividido em quantas regiões?",
+            "question" : "Em quais destes lugares podem acumular água parada?",
             "choices" : [
-                                    "2 regiões",
-                                    "6 regiões",
-                                    "4 regiões",
-                                    "5 regiões",
-                                    "3 regiões"
+                                    "Pneus velhos, tampas de garrafa, vaso de plantas, caixa d'água",
+                                    "Carros, canos fechados e roupas"
                                 ],
-            "correct" : "5 regiões",
+            "correct" : "Pneus velhos, tampas de garrafa, vaso de plantas, caixa d'água",
             "id":"13"
         },
          {
-            "question" : "Sobre os princípios do método de desenvolvimento Scrum, que são consistentes com o manifesto ágil: O processo produz frequentes incrementos de software que podem ser inspecionados, ajustados, testados, documentados e expandidos.",
+            "question" : "Quem pode adoecer de dengue?",
             "choices" : [
-                                    "Correto",
-                                    "Errado"
+                                    "Apenas crianças",
+                                    "Apenas adultos",
+                                    "Qualquer pessoa, adulto ou criança"
                                 ],
-            "correct" : "Correto",
+            "correct" : "Qualquer pessoa, adulto ou criança",
             "id":"14"
         },
          {
-            "question" : "Sobre os princípios do método de desenvolvimento Scrum, que são consistentes com o manifesto ágil: O trabalho de desenvolvimento e o pessoal que o realiza é dividido em partições claras, de baixo acoplamento, ou em pacotes.",
+            "question" : "Onde se cria o mosquito Aedes aegypti?",
             "choices" : [
-                                    "Correto",
-                                    "Errado"
+                                    "Em lugares com bastante terra ou concreto",
+                                    "Em qualquer recipiente que acumule água, seja dentro e/ou ao redor das residências"
                                 ],
-            "correct" : "Correto",
+            "correct" : "Em qualquer recipiente que acumule água, seja dentro e/ou ao redor das residências",
             "id":"15"
         },
          {
-            "question" : "Kanban é um método de desenvolvimento de software que tem como uma de suas práticas o gerenciamento do fluxo de trabalho, que deve ser monitorado, medido e reportado a cada estado do fluxo.",
+            "question" : "O que deve fazer uma pessoa com suspeita de dengue?",
             "choices" : [
-                                   "Correto",
-                                    "Errado"
+                                   "Falar com o vizinho e tomar aspirina",
+                                    "Ir ao posto de saúde para ser examinada."
                                 ],
-            "correct" : "Correto",
+            "correct" : "Ir ao posto de saúde para ser examinada.",
             "id":"16"
         },
          {
-            "question" : "Nos métodos ágeis XP e Scrum, as entregas de partes funcionais do projeto são divididas em ciclos, geralmente compreendidos no período de 1 a 4 semanas. Estes ciclos denominam-se, respectivamente: sprint e iteração",
+            "question" : "Quantas patas tem o mosquito?",
             "choices" : [
-                                    "Correto",
-                                    "Errado"
+                                    "Quatro patas",
+                                    "Duas patas",
+                                    "Seis patas",
+                                    "Nove patas"
                                 ],
-            "correct" : "Correto",
+            "correct" : "Seis patas",
             "id":"17"
         },
          {
-            "question" : "No XP, os testes são escritos antes da atividade de desenvolvimento e todas as funcionalidades só possuem valor se forem testadas e obtiverem unanimidade de aprovação.",
+            "question" : "A fêmea se alimenta de sangue para produzir seus ovos",
             "choices" : [
                                    "Correto",
                                     "Errado"
@@ -206,7 +206,7 @@
             "id":"18"
         },
          {
-            "question" : "Assegurar que a equipe se concentre em fazer, primeiro, apenas aquilo que é claramente necessário e evite fazer o que poderia vir a ser necessário, mas ainda não se provou essencial. Este é um dos cinco valores fundamentais do XP (Extreme Programming), denominado: simplicidade",
+            "question" : "Pratinhos de vasos de plantas, vasos de plantas aquáticas, pneus velhos, latas, garrafas, tonéis, caixas d’água são os criadouros mais comuns do mosquito?",
             "choices" : [
                                     "Correto",
                                     "Errado"
@@ -247,7 +247,7 @@
          submt = true;
          $('#explanation').empty();
          $('#question').text(quiz[currentquestion]['question']);
-         $('#pager').text('Questão ' + Number(aux+1) + ' of 5');
+         $('#pager').text('Questão ' + Number(aux+1) + ' de 5');
          if (quiz[currentquestion].hasOwnProperty('image') && quiz[currentquestion]['image'] != "") {
              if ($('#question-image').length == 0) {
                  $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[currentquestion]['image']).attr('alt', htmlEncode(quiz[currentquestion]['question'])).insertAfter('#question');
@@ -342,7 +342,7 @@
          $('#question').empty();
          $('#choice-block').empty();
          $('#submitbutton').remove();
-         $('#question').text("Você acertou " + score + " de 5.");
+         $('#question').text("Você acertou " + score + " perguntas.");
          $(document.createElement('h2')).css({
              'text-align': 'center',
              'font-size': '4em'
@@ -382,7 +382,7 @@
          //add pager and questions
          if (typeof quiz !== "undefined" && $.type(quiz) === "array") {
              //add pager
-             $(document.createElement('p')).addClass('pager').attr('id', 'pager').text('Questão 1 of 5').appendTo('#frame');
+             $(document.createElement('p')).addClass('pager').attr('id', 'pager').text('Questão 1 de 5').appendTo('#frame');
              //add first question
              $(document.createElement('h2')).addClass('question').attr('id', 'question').text(quiz[currentquestion]['question']).appendTo('#frame');
              //add image if present
