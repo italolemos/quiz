@@ -247,7 +247,7 @@
          submt = true;
          $('#explanation').empty();
          $('#question').text(quiz[currentquestion]['question']);
-         $('#pager').text('Questão ' + Number(aux+1) + ' de 5');
+         // $('#pager').text('' + Number(aux+1) + ' de 5');
          if (quiz[currentquestion].hasOwnProperty('image') && quiz[currentquestion]['image'] != "") {
              if ($('#question-image').length == 0) {
                  $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[currentquestion]['image']).attr('alt', htmlEncode(quiz[currentquestion]['question'])).insertAfter('#question');
@@ -268,12 +268,12 @@
 
          if (quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']) {
              $('.choice').eq(choice).css({
-                 'background-color': '#50D943'
+                 'background-color': '#AAF606'
              });
              score++;
          } else {
              $('.choice').eq(choice).css({
-                 'background-color': '#D92623'
+                 'background-color': '#F63506'
              });
          }
          aux++;
@@ -349,13 +349,13 @@
          }).text(Math.round(score / 5 * 100) + '%').insertAfter('#question');
          var percentagemAcerto = Math.round(score / 5 * 100);
          if(percentagemAcerto >=60){
-         $('<a href="menuEstagioProgramador.html"><img src="img/play3.png"></a>').attr({id: 'submitbutton'}).css({
+         $('<a href="quizFase1.html"><img src="img/rsz_refazer.png"></a>').attr({id: 'submitbutton'}).css({
                  'position':'absolute',
                  'left':'610px',
                  'top':'400px',
                 }).insertAfter('#question');
          }else{
-            $('<a href="menuEstagioEstagiario.html"><img src="img/play3.png"></a>').attr({id: 'submitbutton'}).css({
+            $('<a href="quizFase1.html"><img src="img/rsz_refazer.png"></a>').attr({id: 'submitbutton'}).css({
                  'position':'absolute',
                  'left':'610px',
                  'top':'400px',
@@ -382,7 +382,7 @@
          //add pager and questions
          if (typeof quiz !== "undefined" && $.type(quiz) === "array") {
              //add pager
-             $(document.createElement('p')).addClass('pager').attr('id', 'pager').text('Questão 1 de 5').appendTo('#frame');
+             $(document.createElement('p')).addClass('pager').attr('id', 'pager').text('').appendTo('#frame');
              //add first question
              $(document.createElement('h2')).addClass('question').attr('id', 'question').text(quiz[currentquestion]['question']).appendTo('#frame');
              //add image if present

@@ -24,20 +24,21 @@
   }
   #frame {
       max-width:550px;
-      max-height: 550px;
-      height: 540px;
+      max-height: 6000px;
+      height: 645px;
       width:auto;
-      border:1px solid #ccc;
+      border:1px solid #111312;
       border-radius: 35px;
-      background-image: url("../img/mosquito2.jp");
+      background-image: url("../img/logo.png");
       background-repeat: no-repeat;
+      background-position: left bottom;
       padding:10px;
       margin:0px;
       margin-left: 390px;
       margin-top: 50px;
   }
   h1 {
-      color: #D21734;
+      color: #148772;
       font:normal bold 1.3em/1.2em"Helvetica Neue", Helvetica, Arial, sans-serif;
       text-align:center;
       border-bottom:1px solid #fff;
@@ -45,7 +46,7 @@
       width:auto
   }
   h2 {
-    color: #D21734;
+    color: #148772;
       font:italic bold 1em/1em"Helvetica Neue", Helvetica, Arial, sans-serif;
       padding:0;
       text-align:center;
@@ -57,17 +58,17 @@
       color: #D21734;
   }
   #choice-block {
-      color: green;
+      color: #CFEE8D;
       display:block;
       list-style:none;
       margin:0;
       padding:0;
   }
   #submitbutton {
-      background:#5e7460;
+      background:#2BC6AA;
   }
   #submitbutton:hover {
-      background:#566958;
+      background:#27B69C;
   }
   #explanation {
       margin:0 auto;
@@ -76,7 +77,8 @@
   }
 
   .choice-box {
-      color: #D21734;
+      /*color: #2B2627;*/
+      color: #111312;
       display:block;
       text-align:center;
       margin:8px auto;
